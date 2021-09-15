@@ -1,0 +1,52 @@
+.footerBlock {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #250570;
+  .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+    margin: 20px;
+    color: white;
+    @media (max-width: 600px) {
+      & {
+        border: none;
+        width: 100%;
+      }
+    }
+    span {
+      font-size: 20px;
+      // background: rgb(180, 176, 176);
+    }
+    h2 {
+      margin: 0 auto;
+    }
+    .border {
+     // border: 1px solid black;
+      width: 450px;
+      height: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      @media (max-width: 600px) {
+        & {
+          border: none;
+          width: 100%;
+        }
+      }
+      .square {
+        height: 60px;
+        width: 60px;
+        color:rgb(4, 238, 4);
+      }
+    }
+  }
+  
+}
+
+

@@ -1,25 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/01_header/Header';
+import {Main} from "./components/02_main/Main";
+import { MyWorks } from './components/04_myWorks/MyWorks';
+import {Hiring} from "./components/05_hiring/Hiring"
+import {Contacts} from "./components/06_contacts/Contacts"
+import {Footer} from "./components/07_footer/Footer"
+import { Skills } from './components/03_skills/Skills';
+
 
 function App() {
+  const grh =  <hr color={'blue'} style={{margin:0}} />
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+        <Header/>
+          <Main/>
+       {grh}
+        <Skills />
+        {grh}
+        <MyWorks />
+        {grh}
+        <Hiring />
+        {grh}
+        <Contacts/>
+        <Footer/>
+      </div>
   );
 }
 

@@ -1,0 +1,44 @@
+.hiringBlock {
+  scroll-behavior: smooth;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #250570;
+  .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    // border: 1px solid black;
+    width: 80%;
+    height: 50%;
+    h2 {
+      margin: 0 auto;
+      color: white;
+    }
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    .button {
+      width: 150px;
+      height: 40px;
+      font-size: 18px;
+      font-weight: bold;
+      background: rgb(4, 238, 4);
+      color: black;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .hiringBlock {
+    height: 50vh;
+    text-align: center;
+  }
+  button {
+    width: 50%;
+    background: #250570;
+  }
+}

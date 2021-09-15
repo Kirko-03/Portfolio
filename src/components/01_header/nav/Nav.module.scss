@@ -1,0 +1,27 @@
+.navStyle {
+  width: 400px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10%;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 5px;
+  span {
+    &:hover {
+      border-bottom: 1px solid rgb(45, 214, 45);
+    }
+  }
+}
+.activeStyle {
+  color: rgb(45, 214, 45);
+}
+
+@media (max-width: 500px) {
+  .navStyle {
+    margin: 0 auto;
+  }
+}

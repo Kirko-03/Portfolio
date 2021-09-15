@@ -1,0 +1,25 @@
+.myWorksBlock {
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  background-color: #250570;
+  display: flex;
+  align-items: center;
+  color: white;
+  .myWorksContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .block {
+      display: flex;
+      width: 80%;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      color: rgb(4, 238, 4);
+      @media (max-width: 910px) {
+        & {
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
