@@ -35,7 +35,7 @@ export const Nav = () => {
           activeClass={style.activeStyle}
           spy={true}
           smooth={true}
-          offset={-220}
+          offset={-180}
           duration={600}
         >
           Works
@@ -47,7 +47,7 @@ export const Nav = () => {
           activeClass={style.activeStyle}
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-99}
           duration={700}
         >
           Contacts

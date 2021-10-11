@@ -12,7 +12,7 @@
     .block {
       display: flex;
       width: 80%;
-      justify-content: space-between;
+      justify-content: space-around;
       flex-wrap: wrap;
       color: rgb(4, 238, 4);
       @media (max-width: 910px) {
